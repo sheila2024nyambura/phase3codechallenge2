@@ -15,7 +15,7 @@ review1 = customer1.add_review(restaurant1, 4)
 review2 = customer2.add_review(restaurant1, 5)
 review3 = customer1.add_review(restaurant2, 2)
 
-# Access information
+# Print the customer full names, ratings, and reviews
 print(customer1.get_full_name())
 print(restaurant1.average_star_rating()) 
 print(Customer.find_by_name("George Washington")) 
